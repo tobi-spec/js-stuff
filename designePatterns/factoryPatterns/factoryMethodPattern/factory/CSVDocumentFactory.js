@@ -1,5 +1,5 @@
 import {DocumentFactory} from "./DocumentFactory.js";
-import {CSVDocument} from "./CSVDocument.js";
+import {CSVDocument} from "../model/CSVDocument.js";
 
 export class CSVDocumentFactory extends DocumentFactory {
 

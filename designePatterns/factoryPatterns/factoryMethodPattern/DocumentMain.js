@@ -1,6 +1,6 @@
-import {PDFDocumentFactory} from "./PDFDocumentFactory.js";
-import {WordDocumentFactory} from "./WordDocumentFactory.js";
-import {CSVDocumentFactory} from "./CSVDocumentFactory.js";
+import {PDFDocumentFactory} from "./factory/PDFDocumentFactory.js";
+import {WordDocumentFactory} from "./factory/WordDocumentFactory.js";
+import {CSVDocumentFactory} from "./factory/CSVDocumentFactory.js";
 
 
 const pdfFactory = new PDFDocumentFactory();
